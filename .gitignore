@@ -1,1 +1,89 @@
+# =======================================
+#  Python / Flask / Edge AI Project
+# =======================================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Flask instance folder
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.out
+*.err
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Model weights and large assets
+*.pt
+*.onnx
+*.tflite
+*.h5
+*.weights
+*.pkl
+*.zip
+*.tar
+*.gz
+
+# Git Large File Storage (LFS)
+.gitattributes
+
+# Cache and build artifacts
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+__pypackages__/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Node-RED specific
+node_modules/
+*.json.backup
+*.json~
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+*.pid
+*.lock
+*.sock
+
+# Camera and inference test outputs
+inference_output/
+images/output/
+test_frames/
+detections/
+
+# =======================================
+#  Custom EdgeWise project folders
+# =======================================
+# Exclude your locally trained / cached models
+edge/models/
+edge/temp/
+edge/outputs/
